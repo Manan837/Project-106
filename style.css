@@ -1,42 +1,47 @@
-.header_div, p {
-    background-color: rgb(24, 65, 65);
+.header_div p 
+{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+
+    background-color: #029797;
     color: azure;
     width: 100%;
     line-height: 2;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     margin-bottom: 20px;
 }
 
-p {
-    letter-spacing: 2px;
-    font-weight: bold;
+.header_div
+{
+    background-color: #029797;
+    color: rgb(1, 108, 99);
 }
 
-body {
+body
+{
     background-color: #008080;
+    font-family: 'Poppins', sans-serif;
 }
 
-.main_div {
-    font-family: 'Akaya Telivigala', cursive;
+.main_div button{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    width: 130px;
     font-weight: bolder;
-    letter-spacing: 0.2px;
-}
-
-button {
     border: none;
     height: 5%;
-    width: 130px;
     background-color: #008080;
-    font-family: 'Akaya Telivigala', cursive;
-    margin-top: 10px;
     font-weight: bolder;
     cursor: pointer;
 }
 
 button:hover {
-    border: 2px dashed black;
+    border: 3px dashed black;
     font-size: 20px;
+    letter-spacing: 2.5px;
     text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc, 0 0 30px #82bedc, 0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc, 0 0 3px #82bedc, 0 0 3px #82bedc;
 }
 
